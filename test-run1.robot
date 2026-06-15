@@ -75,46 +75,46 @@ TS0002
     Maximize Browser Window
     Set Window Size    1920    1080
     Sleep    ${DELAY}
-    Go To    ${DASHBOARD_URL} 
+    Go To    ${DASHBOARD_URL}
     Wait Until Location Contains    /web/index.php/dashboard/index    ${TIMEOUT}
     Wait Until Element Is Visible    ${ELEMENT_1}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_1}     ${TIMEOUT}
-    Click Element    ${ELEMENT_1} 
-    Go To    ${VIEWSYSTEMUSERS_URL} 
+    Click Element    ${ELEMENT_1}
+    Go To    ${VIEWSYSTEMUSERS_URL}
     Wait Until Location Contains    /web/index.php/admin/viewSystemUsers    ${TIMEOUT}
     Wait Until Element Is Visible    ${ELEMENT_2}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_2}     ${TIMEOUT}
     Input Text    ${ELEMENT_2}     Balaji
     Wait Until Element Is Visible    ${ELEMENT_3}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_3}     ${TIMEOUT}
-    Click Element    ${ELEMENT_3} 
+    Click Element    ${ELEMENT_3}
     Wait Until Element Is Visible    ${ELEMENT_4}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_4}     ${TIMEOUT}
-    Click Element    ${ELEMENT_4} 
-    Go To    ${SAVESYSTEMUSER_URL} 
+    Click Element    ${ELEMENT_4}
+    Go To    ${SAVESYSTEMUSER_URL}
     Wait Until Location Contains    /web/index.php/admin/saveSystemUser    ${TIMEOUT}
     Wait Until Element Is Visible    ${ELEMENT_5}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_5}     ${TIMEOUT}
     Input Text    ${ELEMENT_5}     user1
     Wait Until Element Is Visible    ${ELEMENT_6}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_6}     ${TIMEOUT}
-    Input Text    ${ELEMENT_6}     ${AUTOCOMPLETE_VALUE} 
+    Input Text    ${ELEMENT_6}     ${AUTOCOMPLETE_VALUE}
     Wait Until Element Is Visible    ${ELEMENT_7}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_7}     ${TIMEOUT}
     Input Text    ${ELEMENT_7}     balaji123
     Wait Until Element Is Visible    ${ELEMENT_8}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_8}     ${TIMEOUT}
-    Click Element    ${ELEMENT_8} 
+    Click Element    ${ELEMENT_8}
     Wait Until Element Is Visible    ${ELEMENT_9}     2000 ms
     Wait Until Element Is Visible    ${ELEMENT_10}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_10}     ${TIMEOUT}
-    Double Click Element    ${ELEMENT_10} 
+    Double Click Element    ${ELEMENT_10}
     Wait Until Element Is Visible    ${ELEMENT_11}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_11}     ${TIMEOUT}
     Input Text    ${ELEMENT_11}     balaji
     Wait Until Element Is Visible    ${ELEMENT_12}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_12}     ${TIMEOUT}
-    Input Text    ${ELEMENT_12}     ${AUTOCOMPLETE_VALUE} 
+    Input Text    ${ELEMENT_12}     ${AUTOCOMPLETE_VALUE}
     Wait Until Element Is Visible    ${ELEMENT_13}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_13}     ${TIMEOUT}
-    Double Click Element    ${ELEMENT_13} 
+    Double Click Element    ${ELEMENT_13}
