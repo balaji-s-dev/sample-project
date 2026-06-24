@@ -65,4 +65,4 @@ TS0003
     Wait Until Location Contains    sauce-demo.myshopify.com    ${TIMEOUT}
     Wait Until Element Is Visible    ${ELEMENT_1}     ${TIMEOUT}
     Wait Until Element Is Enabled    ${ELEMENT_1}     ${TIMEOUT}
-    Click Element    ${ELEMENT_1} 
+    Click Element    ${ELEMENT_1}
